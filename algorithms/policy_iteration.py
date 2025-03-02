@@ -38,4 +38,4 @@ class PolicyIteration:
             self.policy_evaluation()
             if self.policy_improvement():
                 break
-        return self.policy, self.values
+        return self.policy, self.V
